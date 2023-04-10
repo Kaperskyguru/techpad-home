@@ -471,7 +471,7 @@
 
 <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
 <script>
-  Paddle.Setup({vendor: 153088})
+  Paddle.Setup({vendor: Number(153088)})
 
       document.querySelector('#js-checkout-button').addEventListener('click', () => {
           Paddle.Checkout.open({product: 822998})
